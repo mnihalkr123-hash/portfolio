@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammed Nihal K R — Digital Marketing Specialist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">MNKR</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- BACK TO TOP -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">MN<span>KR</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <canvas id="particle-canvas"></canvas>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Welcome to my portfolio</p>
+      <h1 class="hero-name reveal-up">
+        MUHAMMED<br/><span class="silver-text">NIHAL K R</span>
+      </h1>
+      <div class="hero-title-wrap reveal-up">
+        <span class="hero-title-static">I'm a </span>
+        <span class="hero-typed" id="typed-text"></span>
+        <span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-tagline reveal-up">Turning digital noise into brand signal —<br/>one campaign at a time.</p>
+      <div class="hero-cta reveal-up">
+        <a href="#experience" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">01 — About</div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-left">
+          <div class="about-image-frame">
+            <div class="about-image-placeholder">
+              <span><img src="asset/muhammed nihal digital marketer.jpeg" alt="" class="portfolio-img"></span>
+            </div>
+            <div class="about-image-border"></div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <h2 class="section-heading">Crafting digital stories<br/><em>that convert</em></h2>
+          <p>I am a passionate and results-driven digital marketing professional with expertise in social media strategy, SEO, and paid advertising. I combine analytical thinking with creative storytelling to build campaigns that not only attract attention but drive measurable results.</p>
+          <p>From conducting in-depth keyword research to managing Meta ad campaigns, I bring a data-informed approach to every project. My internship experiences have sharpened my ability to adapt quickly and deliver impact in fast-paced environments.</p>
+          <p>I believe great marketing is part science, part art — and I thrive at that intersection.</p>
+          <div class="about-languages">
+            <h4>Languages</h4>
+            <div class="lang-badges">
+              <span class="lang-badge"> English</span>
+              <span class="lang-badge"> Malayalam</span>
+              <span class="lang-badge"> Hindi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">02 — Skills</div>
+      <h2 class="section-heading centered reveal-up">What I bring<br/><em>to the table</em></h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal-up" style="--delay:0.05s">
+          <div class="skill-icon"><i class="fas fa-search"></i></div>
+          <h3>SEO</h3>
+          <p>On-page & off-page optimization, technical SEO audits, rank tracking.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.1s">
+          <div class="skill-icon"><i class="fas fa-share-nodes"></i></div>
+          <h3>Social Media Marketing</h3>
+          <p>Strategy, content calendars, community management, growth hacking.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.15s">
+          <div class="skill-icon"><i class="fab fa-meta"></i></div>
+          <h3>Meta Ads</h3>
+          <p>Facebook & Instagram ad campaigns, A/B testing, ROAS optimization.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.2s">
+          <div class="skill-icon"><i class="fas fa-key"></i></div>
+          <h3>Keyword Research</h3>
+          <p>Competitor analysis, search intent mapping, long-tail strategy.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.25s">
+          <div class="skill-icon"><i class="fas fa-comments"></i></div>
+          <h3>Communication</h3>
+          <p>Client presentations, copywriting, stakeholder reporting.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="92%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.3s">
+          <div class="skill-icon"><i class="fas fa-people-group"></i></div>
+          <h3>Teamwork</h3>
+          <p>Cross-functional collaboration, agile mindset, mentorship.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="94%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.35s">
+          <div class="skill-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+          <h3>Photoshop</h3>
+          <p>Ad creatives, photo retouching, brand visual assets.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill-card reveal-up" style="--delay:0.4s">
+          <div class="skill-icon"><i class="fas fa-palette"></i></div>
+          <h3>Canva</h3>
+          <p>Social graphics, presentations, marketing collateral design.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">03 — Experience</div>
+      <h2 class="section-heading reveal-up">Where I've<br/><em>made an impact</em></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Feb 2026 — Mar 2026</div>
+          <div class="timeline-card glass">
+            <div class="timeline-company">Alpha Digital Academy</div>
+            <div class="timeline-role">Digital Marketing Intern</div>
+            <ul class="timeline-points">
+              <li>Managed social media accounts across multiple platforms</li>
+              <li>Developed and executed content creation strategies</li>
+              <li>Planned and ran Meta Ads campaigns for client brands</li>
+              <li>Monitored campaign performance and generated weekly reports</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Social Media</span>
+              <span>Content Creation</span>
+              <span>Meta Ads</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2024 — Dec 2024</div>
+          <div class="timeline-card glass">
+            <div class="timeline-company">Netplex Solution</div>
+            <div class="timeline-role">SEO Intern</div>
+            <ul class="timeline-points">
+              <li>Conducted SEO audits and implemented on-page optimizations</li>
+              <li>Achieved significant ranking improvements for target keywords</li>
+              <li>Analyzed website traffic and behavior via Google Analytics</li>
+              <li>Built backlink profiles and performed competitor analysis</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>SEO</span>
+              <span>Analytics</span>
+              <span>Keyword Research</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">04 — Education</div>
+      <h2 class="section-heading centered reveal-up">The foundation<br/><em>of my craft</em></h2>
+      <div class="edu-grid">
+        <div class="edu-card glass reveal-up" style="--delay:0.05s">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-year">2023 — 2024</div>
+          <h3>Professional Diploma in Digital Marketing</h3>
+          <p>GTEC Kannur</p>
+          <span class="edu-badge">Professional Certification</span>
+        </div>
+        <div class="edu-card glass reveal-up" style="--delay:0.15s">
+          <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="edu-year">Higher Secondary</div>
+          <h3>Plus Two — Computer Science</h3>
+          <p>Kerala State Board</p>
+          <span class="edu-badge">VHSE</span>
+        </div>
+        <div class="edu-card glass reveal-up" style="--delay:0.25s">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <div class="edu-year">Secondary</div>
+          <h3>SSLC</h3>
+          <p>Kerala State Board</p>
+          <span class="edu-badge">SSE</span>
+        </div>
+      </div>
+
+      <!-- HOBBIES -->
+      <div class="hobbies-wrap reveal-up">
+        <h3 class="hobbies-title">Beyond work,<br/>I love —</h3>
+        <div class="hobbies-grid">
+          <div class="hobby-item">
+            <div class="hobby-icon"><i class="fas fa-film"></i></div>
+            <span>Movies</span>
+          </div>
+          <div class="hobby-item">
+            <div class="hobby-icon"><i class="fas fa-futbol"></i></div>
+            <span>Football</span>
+          </div>
+          <div class="hobby-item">
+            <div class="hobby-icon"><i class="fas fa-music"></i></div>
+            <span>Music</span>
+          </div>
+          <div class="hobby-item">
+            <div class="hobby-icon"><i class="fas fa-plane"></i></div>
+            <span>Travel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">05 — Contact</div>
+      <h2 class="section-heading centered reveal-up">Let's build something<br/><em>remarkable</em></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <p class="contact-intro">Have a project in mind or want to collaborate? I'd love to hear from you. Drop a message or reach out directly.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <a href="tel:+919605014036" class="ci-value">+91 9605014036</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="ci-label">Email</span>
+                <a href="mailto:mnihalkr123@gmail.com" class="ci-value">mnihalkr123@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-location-dot"></i></div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Kannur, Kerala, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/muhammednihalkr/" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/mnihalkr22_/?hl=en" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:mnihalkr123@gmail.com" class="social-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form glass" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="fname" name="name" placeholder=" " required />
+              <label for="fname">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="femail" name="email" placeholder=" " required />
+              <label for="femail">Email Address</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="fsubject" name="subject" placeholder=" " required />
+              <label for="fsubject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="fmessage" name="message" placeholder=" " rows="5" required></textarea>
+              <label for="fmessage">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="form-success">
+              <i class="fas fa-check-circle"></i> Message sent! I'll be in touch soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">MN<span>KR</span></div>
+      <p class="footer-tagline">Digital Marketing Specialist · Kannur, Kerala</p>
+      <p class="footer-copy">&copy; 2026 Muhammed Nihal K R. Crafted with precision.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
